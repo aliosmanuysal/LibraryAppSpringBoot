@@ -16,8 +16,7 @@ services:
     build: ../library-app
     ports:
       - "80:80"
-    depends_on:
-      - springboot-app
+    
 
   postgres:
     image: postgres
